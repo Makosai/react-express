@@ -1,0 +1,12 @@
+{
+    "editor.tabSize": 2,
+    "files.eol": "\n",
+    "editor.detectIndentation": false,
+    "extensions.ignoreRecommendations": false,
+    "git.autofetch": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      { "language": "html", "autoFix": true }
+    ]
+  }
