@@ -2,7 +2,7 @@
 
 This react-express project utilizes webpack and comes with some VSCode settings to help you organize your work better.
 
-#### Usage
+### Usage
 **Webpack (Production):**
 ```sh
 $ npm run build
@@ -18,7 +18,7 @@ $ npm run build-dev
 $ npm run server
 ```
 
-#### VSCode Extensions
+### VSCode Extensions
 | Plugin | Description |
 | ------ | ------ |
 | [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) | Beautify code in place for VS Code. |
@@ -30,9 +30,10 @@ $ npm run server
 | [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) | Your swiss knife SQL for VScode. Execute queries, auto complete, bookmarks etc. |
 | [webpack](https://marketplace.visualstudio.com/items?itemName=jeremyrajan.webpack) | Create Webpack Config with ES6 transpiling using babel. |
 
-#### Components
+### Components
   - Express (/src/server)
   - React (/src/client)
   - MySQL (/src/server/db) [optional]
     - DB_* environmental variables (/.env)
   - Entrypoints (/src/{server|client}/index.js)
+  
