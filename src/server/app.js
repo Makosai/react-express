@@ -20,10 +20,8 @@ app.use(bodyParser.json());
 
 /**
  * Tell Express to use Express Routers when the URL starts with /api
- * WARNING: Regex works with /api, but also works with /apickle
- * Update will come soon.
  */
-app.get(/^(?!(\/api))(.+)/, (req, res) => {
+app.get(/^(?!(\/api$)|(\/api\/.*$))/, (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
